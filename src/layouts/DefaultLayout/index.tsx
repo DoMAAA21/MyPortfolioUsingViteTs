@@ -1,9 +1,9 @@
-import { FC } from 'react';
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from './navbar';
 
 
-const DashboardLayout: FC = () => {
+const DashboardLayout: React.FC = () => {
 
     return (
         <>
